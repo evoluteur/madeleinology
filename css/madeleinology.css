@@ -1,0 +1,433 @@
+
+@font-face{
+  font-family:'Raleway-Regular';
+  src:url('Raleway-Regular.ttf');
+}
+@font-face{
+  font-family:'Raleway-Bold';
+  src:url('Raleway-Bold.ttf');
+}
+
+body {
+  margin: 0;
+  color: black;
+  background-color: white;
+  font-size: 16pt;
+  font-family: 'Raleway-Regular', "Century Gothic", arial;
+  font-weight: 300;
+  /*background-image: url("../pix/bg.gif");*/
+}
+strong{
+  font-family:'Raleway-Bold';
+} 
+section{
+  padding: 10px 60px;
+}
+
+
+a {
+  color: #0099cc;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+h1{
+  margin-bottom: 50px;
+}
+
+.m-salty img{
+  width:600px;
+}
+
+.m-sides img{
+  float: left;
+  margin: 0 20px 50px 0;
+  height:310px;
+  width:200px;
+}
+.m-sides h3{
+  clear:both;
+}
+
+
+
+.pnav {
+  background-color: black;
+  height: 60px;
+}
+.pnav a {
+  padding:10px 15px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.pnav a:nth-child(1) {
+  position: absolute;
+  top:-19px;
+  font-size: 1.3em;
+  border-radius: 0;
+  padding-left:0;
+}
+.pnav a:nth-child(2) {
+  margin-left: 280px;
+}
+.pnav a:hover {
+  background-color: #0099cc;
+}
+.pnav a.sel {
+  background-color: white !important;
+  color: #0099cc;
+}
+.pnav a > img{ 
+  margin: 0 10px 0;
+  position: relative;
+  top: 8px;
+}
+.home{ 
+  color: #0099cc !important;
+}
+.home:hover{ 
+  background-color: black !important;
+  color: white;
+}
+
+
+
+#m-list{ 
+  font-size: .8em;
+  margin:10px 0;
+}
+#m-list > div{
+  position: relative;
+  padding: 15px;
+  margin:0 2px;
+  height:190px;
+  width: 200px;
+  float:left;
+  text-align: center;
+  border: solid 2px transparent;
+  border-bottom-width: 0;
+  border-radius: 4px;
+}
+.r-title{
+  font-family:'Raleway-Bold';
+}
+
+
+.order:hover a{
+  color:black;
+}
+.txt-light{
+  color: silver;
+  margin-right: 10px;
+}
+
+.ing-chart{
+  display: block;
+  position: relative;
+  height:100px;
+  width:123px;
+  border-bottom: solid 1px grey;
+  margin: 0 10px 10px 40px;
+}
+.bar{
+  position: absolute;
+  width:27px;
+  border-top: solid 10px white;
+  bottom:0;
+}
+.bar > div{
+    display: none;
+    position: absolute;
+    width: 90px;
+    top: -22px;
+    background-color: white;
+    opacity: .8;
+    z-index: 100;
+    text-shadow: 1px 1px 1px silver;
+}
+.bar:hover > div{
+    text-align: left;
+    display: block;
+}
+.bar:nth-child(1){
+  left:3;
+  background-color: #689F38;
+  color: #689F38;
+} 
+.bar:nth-child(2){
+  left:33px;
+  background-color: #AA00FF;
+  color: #AA00FF;
+} 
+.bar:nth-child(3){
+  left:63px;
+  background-color: #FFA000;
+  color: #FFA000;
+} 
+.bar:nth-child(4){
+  left:93px;
+  background-color: #0288D1;
+  color: #1976D2;
+}
+.bar:nth-child(4) > div{
+  width: 80px;
+}
+
+.ing-legend{ 
+  display: inline-block;
+}
+.ing-legend > a > div{ 
+  display: inline-block;
+  height:20px;
+  width: 20px;
+  margin: 0 5px 0 10px;
+  background-color: red;
+}
+.ing-legend > a:nth-child(1) > div{
+  background-color: #689F38;
+} 
+.ing-legend > a:nth-child(2) > div{
+  background-color: #AA00FF;
+} 
+.ing-legend > a:nth-child(3) > div{
+  background-color: #FFA000;
+} 
+.ing-legend > a:nth-child(4) > div{
+  background-color: #1976D2;
+} 
+
+.ing-legend > span {
+  margin-left: 20px;
+} 
+.ing-legend > span > a{
+  margin-right: 10px;
+  color: silver;
+} 
+
+#m-list > div:hover{
+  border-color: rgb(174, 199, 232);
+}
+div:hover > .xtra{
+  display: block;
+}
+.xtra{  
+  display: none;
+  width: 210px;
+  position: absolute;
+  left: -2px;
+  z-index: 2000;
+  padding: 10px 10px 20px;
+  background-color: white;
+  color: gray;
+  border: solid 2px rgb(174, 199, 232);
+  border-top-width: 0;
+  border-radius: 4px;
+}
+
+
+
+.votes{
+
+  color: silver;
+}
+.votes > span{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+#i-list{
+  margin-top: 20px;
+}
+#i-list > div{
+  position: relative;
+  padding: 5px;
+}
+#i-list > div:hover .h-bar{
+  background-color: navy;
+}
+#i-list > div:hover .iTitle{
+  color: #39C;
+}
+#i-list > div:hover .iTitle > span{
+  color: navy;
+}
+
+.iTitle{
+  display: inline-block;
+  width: 400px;
+}
+.iTitle > span{
+  display: inline-block;
+  width: 50px;
+  color: silver;
+}
+.iTitle > span:nth-child(2){
+  width: 70px;
+}
+.hh-bar{
+  display: inline-block;
+  width: 441px;
+    background-color: eee;
+    border: solid 1px grey;
+}
+.h-bar{
+  display: inline-block;
+  height: 20px;
+  background-color: #39C;
+}
+
+
+
+
+
+
+
+
+
+
+.clearer{
+  clear: both;
+}
+p.clearer{
+  padding-top:25px;
+}
+
+.pixShadow,
+.pixGroup img{
+  position: relative;
+  box-shadow: 3px 5px 3px silver;
+  margin: 20px 10px 20px 20px;
+  border: solid 2px silver;
+}
+.pixGroup img:hover{
+  top: 3px;
+  left: 2px;
+  box-shadow: 1px 2px 1px silver;
+  transition: top 0.6s, left 0.6s;
+}
+
+
+
+.nav{
+  color: white;
+  background-color: black;
+  padding: 8px 10px;
+}
+.nav > a {
+  color: #92cddc;
+  background-color: black !important;
+  text-decoration: none;
+}
+.nav > a:hover {
+  color: #FF9900;
+}
+
+.bottomSpace{
+  margin-top:100px;
+  height: 40%;
+}
+
+
+.c-red{
+  color: #F44336;
+}
+.c-blue{
+  color: #2196F3;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* https://codepen.io/fivera/pen/rzepn */
+ .heart {
+  font-size: 30px;
+  position:relative;
+  top:4px;
+  display: inline-block;
+  text-align: center;
+  color: #BF360C;
+
+  -webkit-animation: beat .35s infinite alternate;
+  -moz-animation: beat .35s infinite alternate;
+  -ms-animation: beat .35s infinite alternate;
+  -o-animation: beat .35s infinite alternate;
+  animation: beat .35s infinite alternate;
+
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -o-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+
+@keyframes "beat" {
+ to {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+ }
+
+}
+
+@-moz-keyframes beat {
+ to {
+   -moz-transform: scale(1.4);
+   transform: scale(1.4);
+ }
+
+}
+
+@-webkit-keyframes "beat" {
+ to {
+   -webkit-transform: scale(1.4);
+   transform: scale(1.4);
+ }
+
+}
+
+@-ms-keyframes "beat" {
+ to {
+   -ms-transform: scale(1.4);
+   transform: scale(1.4);
+ }
+
+}
+
+@-o-keyframes "beat" {
+ to {
+   -o-transform: scale(1.4);
+   transform: scale(1.4);
+ }
+
+}  
+
+
+
+
+
+
+
+
+
