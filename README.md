@@ -1,4 +1,10 @@
 # Madeleinology
 
-Looking at the proportions of Flour, Butter, Sugar, and Egg across 150 recipes of Madeleines (the traditional French sweet sponge cake) scraped from [Marmiton.org](http://marmiton.org).
+My study of Madeleines (the traditional French sponge cake).
 
+[![Madeleines](https://raw.githubusercontent.com/evoluteur/madeleinology/master/public/pix/mixed-tray.jpg)](https://evoluteur.github.io/madeleinology/)
+
+
+[![Madeleines](https://raw.githubusercontent.com/evoluteur/madeleinology/master/public/pix/mad-4.gif)](https://evoluteur.github.io/madeleinology/ingredients-top4.html)
+
+Copyright (c) 2019 [Olivier Giulieri](https://evoluteur.github.io/).
