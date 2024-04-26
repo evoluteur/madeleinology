@@ -3,79 +3,79 @@
 
 const ingredients = [
   {
-    name: "Egg",
+    name: "Oeuf",
     count: 144,
   },
   {
-    name: "Flour",
+    name: "Farine",
     count: 141,
   },
   {
-    name: "Butter",
+    name: "Beurre",
     count: 114,
   },
   {
-    name: "Sugar",
+    name: "Sucre",
     count: 105,
   },
   {
-    name: "Yeast",
+    name: "Levure",
     count: 104,
   },
   {
-    name: "Salt",
+    name: "Sel",
     count: 46,
   },
   {
-    name: "Milk",
+    name: "Lait",
     count: 26,
   },
   {
-    name: "Lemon",
+    name: "Citron",
     count: 22,
   },
   {
-    name: "Pepper",
+    name: "Poivre",
     count: 20,
   },
   {
-    name: "Honey",
+    name: "Miel",
     count: 16,
   },
   {
-    name: "Chocolate",
+    name: "Chocolat",
     count: 14,
   },
   {
-    name: "Vanilla Sugar",
+    name: "Sucre vanillé",
     count: 13,
   },
   {
-    name: "Vanilla",
+    name: "Vanille",
     count: 13,
   },
   {
-    name: "Cornstarch",
+    name: "Maïzena",
     count: 10,
   },
   {
-    name: "Icing Sugar",
+    name: "Sucre glace",
     count: 9,
   },
   {
-    name: "Oil",
+    name: "Huile",
     count: 9,
   },
   {
-    name: "Grated Gruyère Cheese",
+    name: "Gruyère râpé",
     count: 9,
   },
   {
-    name: "Almond",
+    name: "Amande",
     count: 8,
   },
   {
-    name: "Orange Blossom Water",
+    name: "Eau de fleur d'oranger",
     count: 8,
   },
   {
@@ -83,51 +83,51 @@ const ingredients = [
     count: 8,
   },
   {
-    name: "Olive Oil",
+    name: "Huile d'olive",
     count: 8,
   },
   {
-    name: "Pastry Chocolate",
+    name: "Chocolat pâtissier",
     count: 7,
   },
   {
-    name: "Almond Powder",
+    name: "Poudre d'amande",
     count: 7,
   },
   {
-    name: "Cinnamon",
+    name: "Cannelle",
     count: 6,
   },
   {
-    name: "Orange Flower Water",
+    name: "Fleur d'oranger",
     count: 6,
   },
   {
-    name: "Unsalted Butter",
+    name: "Beurre demi-sel",
     count: 5,
   },
   {
-    name: "Dark Chocolate",
+    name: "Chocolat noir",
     count: 5,
   },
   {
-    name: "Raisins",
+    name: "Raisins secs",
     count: 5,
   },
   {
-    name: "Brown Sugar",
+    name: "Sucre roux",
     count: 5,
   },
   {
-    name: "Coffee",
+    name: "Café",
     count: 4,
   },
   {
-    name: "White Chocolate",
+    name: "Chocolat blanc",
     count: 4,
   },
   {
-    name: "Crème fraîche",
+    name: "Crême fraîche",
     count: 4,
   },
   {
@@ -135,99 +135,99 @@ const ingredients = [
     count: 4,
   },
   {
-    name: "Water",
+    name: "Eau",
     count: 4,
   },
   {
-    name: "Wheat Flour",
+    name: "Farine de blé",
     count: 4,
   },
   {
-    name: "Sweet Butter",
+    name: "Beurre doux",
     count: 3,
   },
   {
-    name: "Brown Sugar",
+    name: "Cassonade",
     count: 3,
   },
   {
-    name: "Milk Chocolate",
+    name: "Chocolat au lait",
     count: 3,
   },
   {
-    name: "Cocoa Powder",
+    name: "Chocolat en poudre",
     count: 3,
   },
   {
-    name: "Grated Coconut",
+    name: "Noix de coco rapée",
     count: 3,
   },
   {
-    name: "Candied Fruit",
+    name: "Fruit confit",
     count: 3,
   },
   {
-    name: "Hazelnut",
+    name: "Noisette",
     count: 3,
   },
   {
-    name: "Sunflower Oil",
+    name: "Huile de tournesol",
     count: 3,
   },
   {
-    name: "Apple",
+    name: "Pomme",
     count: 3,
   },
   {
-    name: "Roquefort Cheese",
+    name: "Roquefort",
     count: 3,
   },
   {
-    name: "Tuna",
+    name: "Thon",
     count: 3,
   },
   {
-    name: "Plain Yogurt",
+    name: "Yaourt nature",
     count: 3,
   },
   {
-    name: "Ham",
+    name: "Jambon",
     count: 2,
   },
   {
-    name: "Rum",
+    name: "Rhum",
     count: 2,
   },
   {
-    name: "Smoked Bacon",
+    name: "Lardons fumés",
     count: 2,
   },
   {
-    name: "Cane Sugar",
+    name: "Sucre de canne",
     count: 2,
   },
   {
-    name: "Baking Soda",
+    name: "Bicarbonate",
     count: 2,
   },
   {
-    name: "Hazelnut Powder",
+    name: "Poudre de noisette",
     count: 2,
   },
   {
-    name: "Lime",
+    name: "Citron vert",
     count: 2,
   },
   {
-    name: "Cocoa",
+    name: "Cacao",
     count: 2,
   },
   {
-    name: "Go at Cheese Log",
+    name: "Bûche de chèvre",
     count: 2,
   },
   {
-    name: "Oregano",
+    name: "Origan",
     count: 2,
   },
   {
@@ -235,67 +235,67 @@ const ingredients = [
     count: 2,
   },
   {
-    name: "Pine Nut",
+    name: "Pignon",
     count: 2,
   },
   {
-    name: "Soy Milk",
+    name: "Lait de soja",
     count: 2,
   },
   {
-    name: "Almond Extract",
+    name: "Extrait d'amande",
     count: 2,
   },
   {
-    name: "Baking Powder",
+    name: "Poudre à lever",
     count: 2,
   },
   {
-    name: "Camembert Cheese",
+    name: "Camembert",
     count: 2,
   },
   {
-    name: "Syrup",
+    name: "Sirop",
     count: 2,
   },
   {
-    name: "Raspberry",
+    name: "Framboise",
     count: 2,
   },
   {
-    name: "Nutmeg",
+    name: "Muscade",
     count: 2,
   },
   {
-    name: "Acacia Honey",
+    name: "Miel d'acacia",
     count: 2,
   },
   {
-    name: "Praline",
+    name: "Pralin",
     count: 2,
   },
   {
-    name: "Ginger",
+    name: "Gingembre",
     count: 2,
   },
   {
-    name: "Lemon Juice",
+    name: "Jus de citron",
     count: 2,
   },
   {
-    name: "Monbazillac Wine",
+    name: "Monbazillac",
     count: 1,
   },
   {
-    name: "Grated Cheese",
+    name: "Fromage râpé",
     count: 1,
   },
   {
-    name: "Flavoring",
+    name: "Arôme",
     count: 1,
   },
   {
-    name: "Pineapple",
+    name: "Ananas",
     count: 1,
   },
   {
@@ -307,35 +307,35 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Green Tea",
+    name: "Thé vert",
     count: 1,
   },
   {
-    name: "Dill",
+    name: "Aneth",
     count: 1,
   },
   {
-    name: "Hake",
+    name: "Colin",
     count: 1,
   },
   {
-    name: "Heavy Cream",
+    name: "Crème liquide",
     count: 1,
   },
   {
-    name: "Chicken",
+    name: "Poulet",
     count: 1,
   },
   {
-    name: "Tomato Sauce",
+    name: "Sauce tomate",
     count: 1,
   },
   {
-    name: "Potato",
+    name: "Pomme de terre",
     count: 1,
   },
   {
-    name: "Thyme",
+    name: "Thym",
     count: 1,
   },
   {
@@ -343,19 +343,19 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Cooked Ham",
+    name: "Jambon blanc",
     count: 1,
   },
   {
-    name: "Cashew Nut",
+    name: "Noix de cajou",
     count: 1,
   },
   {
-    name: "Cheese",
+    name: "Fromage",
     count: 1,
   },
   {
-    name: "Peanut Butter",
+    name: "Beurre de cacahuète",
     count: 1,
   },
   {
@@ -363,31 +363,31 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Cardamom",
+    name: "Cardamome",
     count: 1,
   },
   {
-    name: "Candied Ginger",
+    name: "Gingembre confit",
     count: 1,
   },
   {
-    name: "Anise",
+    name: "Anis",
     count: 1,
   },
   {
-    name: "Caramel Candy",
+    name: "Carambar",
     count: 1,
   },
   {
-    name: "Green Olive",
+    name: "Olive verte",
     count: 1,
   },
   {
-    name: "Pistachio",
+    name: "Pistache",
     count: 1,
   },
   {
-    name: "Spread",
+    name: "Pâte à tartiner",
     count: 1,
   },
   {
@@ -395,87 +395,91 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Tomato",
+    name: "Tomate",
     count: 1,
   },
   {
-    name: "Gruyère Cheese",
+    name: "Gruyère",
     count: 1,
   },
   {
-    name: "Strawberry",
+    name: "Fraise",
     count: 1,
   },
   {
-    name: "Espelette Pepper",
+    name: "Piment d'espelette",
     count: 1,
   },
   {
-    name: "Walnut",
+    name: "Noix",
     count: 1,
   },
   {
-    name: "Emmental Cheese",
+    name: "Emmental",
     count: 1,
   },
   {
-    name: "Apricot",
+    name: "Abricot",
     count: 1,
   },
   {
-    name: "Clementine",
+    name: "Clémentine",
     count: 1,
   },
   {
-    name: "Coconut Milk",
+    name: "Lait de coco",
     count: 1,
   },
   {
-    name: "Pink Shrimp",
+    name: "Crevette rose",
     count: 1,
   },
   {
-    name: "Food Coloring",
+    name: "Colorant",
     count: 1,
   },
   {
-    name: "Mandarin Orange",
+    name: "Mandarine",
     count: 1,
   },
   {
-    name: "Mint",
+    name: "Menthe",
     count: 1,
   },
   {
-    name: "Dough",
+    name: "Pâte",
     count: 1,
   },
   {
-    name: "Liquid Heavy Cream",
+    name: "Crème fraîche liquide",
     count: 1,
   },
   {
-    name: "Caramel Sauce with Salted Butter",
+    name: "Persil",
     count: 1,
   },
   {
-    name: "Squash",
+    name: "Caramel au beurre salé",
     count: 1,
   },
   {
-    name: "Muscat Grape",
+    name: "Courge",
     count: 1,
   },
   {
-    name: "Comté Cheese",
+    name: "Muscat",
     count: 1,
   },
   {
-    name: "Bell Pepper",
+    name: "Comté",
     count: 1,
   },
   {
-    name: "Hazelnut Oil",
+    name: "Poivron",
+    count: 1,
+  },
+  {
+    name: "Huile de noisette",
     count: 1,
   },
   {
@@ -483,7 +487,7 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Zucchini",
+    name: "Courgette",
     count: 1,
   },
   {
@@ -491,7 +495,11 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Elderberry",
+    name: "Baie de sureau",
+    count: 1,
+  },
+  {
+    name: "Écorces d'oranges confites",
     count: 1,
   },
   {
@@ -499,35 +507,35 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Ricotta Cheese",
+    name: "Ricotta",
     count: 1,
   },
   {
-    name: "Matcha Tea",
+    name: "Thé matcha",
     count: 1,
   },
   {
-    name: "Chestnut Flour",
+    name: "Farine de chataîgne",
     count: 1,
   },
   {
-    name: "Baker's Yeast",
+    name: "Levure de boulanger",
     count: 1,
   },
   {
-    name: "Onion",
+    name: "Oignon",
     count: 1,
   },
   {
-    name: "Parmesan Cheese",
+    name: "Parmesan",
     count: 1,
   },
   {
-    name: "Feta Cheese",
+    name: "Feta",
     count: 1,
   },
   {
-    name: "Basil",
+    name: "Basilic",
     count: 1,
   },
   {
@@ -535,19 +543,19 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Cranberry",
+    name: "Cranberrie",
     count: 1,
   },
   {
-    name: "Sun-Dried Tomato",
+    name: "Tomate séchée",
     count: 1,
   },
   {
-    name: "Almond Extract",
+    name: "Extrait d'amande amère",
     count: 1,
   },
   {
-    name: "Black Olive",
+    name: "Olive noire",
     count: 1,
   },
   {
@@ -555,43 +563,43 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Almond Paste",
+    name: "Pâte d'amande",
     count: 1,
   },
   {
-    name: "Banana",
+    name: "Banane",
     count: 1,
   },
   {
-    name: "Cherry",
+    name: "Cerise",
     count: 1,
   },
   {
-    name: "Bitter Cocoa",
+    name: "Cacao amer",
     count: 1,
   },
   {
-    name: "Chestnut Cream",
+    name: "Crème de marron",
     count: 1,
   },
   {
-    name: "Cream",
+    name: "Crème",
     count: 1,
   },
   {
-    name: "Tomato Concentrate",
+    name: "Concentré de tomate",
     count: 1,
   },
   {
-    name: "Herbes de Provence",
+    name: "Herbes de provence",
     count: 1,
   },
   {
-    name: "M&M's Peanut",
+    name: "M&M's cacahuète",
     count: 1,
   },
   {
-    name: "Raclette Cheese",
+    name: "Fromage à raclette",
     count: 1,
   },
   {
@@ -599,19 +607,19 @@ const ingredients = [
     count: 1,
   },
   {
-    name: "Peach",
+    name: "Pêche",
     count: 1,
   },
   {
-    name: "Violet",
+    name: "Violette",
     count: 1,
   },
   {
-    name: "Coconut",
+    name: "Noix de coco",
     count: 1,
   },
   {
-    name: "Liquid Honey",
+    name: "Miel liquide",
     count: 1,
   },
 ];

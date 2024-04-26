@@ -341,7 +341,7 @@ div:hover > .xtra {
         background-color: navy;
       }
       .hh-bar {
-        background-color: silver;
+        background-color: #e0e0e0;
       }
       .iTitle {
         color: #39c;
@@ -355,7 +355,7 @@ div:hover > .xtra {
 
 .iTitle {
   display: inline-block;
-  width: 400px;
+  width: 480px;
   > span {
     display: inline-block;
     width: 50px;
@@ -368,7 +368,6 @@ div:hover > .xtra {
 .hh-bar {
   display: inline-block;
   width: 441px;
-  background-color: eee;
 }
 .h-bar {
   display: inline-block;
