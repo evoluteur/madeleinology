@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-063933E3C2"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-063933E3C2"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-063933E3C2');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-063933E3C2");
     </script>
     <title>Madeleinology: Madeleine shapes</title>
     <meta charset="utf-8" />
@@ -14,7 +19,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <link rel="icon" type="image/png" href="favicon.png" />
-    <script src="js/recipes-data.js" type="text/javascript"></script>
+    <script src="data/recipes-data.js" type="text/javascript"></script>
     <script src="https://d3js.org/d3.v3.js"></script>
     <script src="js/radar-chart.js"></script>
     <link href="css/madeleinology.css" rel="stylesheet" />
@@ -22,11 +27,11 @@
 
     <meta
       name="keywords"
-      content="d3, d3js, radar, spider, chart, madeleine, ingredients, egg, sugar, flour, butter"
+      content="d3, d3js, radar, spider, chart, graph, madeleine, cake, ingredients, egg, sugar, flour, butter"
     />
     <meta
       name="description"
-      content="Madeleinology: Radar charts of flour, sugar, butter, and eggs in madeleine cakes."
+      content="Madeleinology: Radar charts for the proportions of flour, sugar, butter, and eggs in 147 madeleine cake recipes."
     />
   </head>
 
@@ -46,16 +51,17 @@
       <li class="num"><a href="madeleine-cupcake-trend.html">4</a></li>
       <li class="num"><a href="madeleine-correlation.html">5</a></li>
       <li><a href="madeleines-recipe.html">Recipe</a></li>
-      <li><a href="madeleines-sweet.html">Sweet</a></li>
-      <li><a href="madeleines-salty.html">Salty</a></li>
+      <li class="rnd-top"><a href="madeleines-sweet.html">Sweet</a></li>
+      <li class="rnd-top"><a href="madeleines-salty.html">Salty</a></li>
     </ul>
 
     <section>
       <h1>Madeleine shapes</h1>
       <p>
         Beside the soft shapes of madeleine cakes, are the hard shapes of
-        ingredient quantities.
+        ingredient quantities in radar charts.
       </p>
+      <p>Axes: top = flour, right = egg, bottom = butter, left = sugar</p>
 
       <div id="radar_charts"></div>
 
@@ -71,21 +77,17 @@
       RadarChart.defaultConfig.radius = 3;
       RadarChart.defaultConfig.w = 400;
       RadarChart.defaultConfig.h = 400;
-      var recipeList = recipes.map((d) => {
-        return [
-          {
-            className: "argentina",
-            title: d.title,
-            url: d.url,
-            axes: ["farine", "sucre", "beurre", "oeuf"].map(function (axis) {
-              return {
-                axis: axis,
-                value: d["pc_" + axis],
-              };
-            }),
-          },
-        ];
-      });
+      var recipeList = recipes.map((d) => [
+        {
+          className: "argentina",
+          title: d.title,
+          url: d.url,
+          axes: ["farine", "sucre", "beurre", "oeuf"].map((axis) => ({
+            axis: axis,
+            value: d["pc_" + axis],
+          })),
+        },
+      ]);
       var chart = RadarChart.chart();
       var cfg = chart.config();
       var content = d3.select("#radar_charts").attr("class", "h-radars");
@@ -112,9 +114,7 @@
         .attr("href", function (d) {
           return d[0].url;
         })
-        .html(function (d) {
-          return d[0].title;
-        });
+        .html((d) => d[0].title);
       content.selectAll(".game").call(chart);
     </script>
 
