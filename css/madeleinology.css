@@ -326,9 +326,10 @@ div:hover > .xtra {
 }
 
 .votes {
-  color: silver;
+  color: orange;
   > span {
-    color: red;
+    margin-left: 5px;
+    color: grey;
   }
 }
 

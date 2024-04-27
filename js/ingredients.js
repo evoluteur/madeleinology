@@ -7,7 +7,7 @@ const cs = {
 
 const list = () =>
   ingredients
-    .map(
+    ?.map(
       (r) => `
 			<div>
 				<div class="iTitle">
